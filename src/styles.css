@@ -1,14 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-@font-face {
-    font-family: "NunitoSans";
-    src: url("/src/assets/fonts/NunitoSans.ttf") format('truetype');
-}
-
-@font-face {
-    font-family: "NunitoSans-bold";
-    src: url("/src/assets/fonts/NunitoSans_7pt-Bold.ttf") format('truetype');
-}
 /* Estilos generales */
 body {
     
@@ -16,13 +7,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #c3c5a3;
-    font-family: "NunitoSans-bold", sans-serif;
+    font-family: sans-serif;
     /* Establece la fuente predeterminada, margen y relleno a 0, y el color de fondo de la página */
 }
 
 
 header {
-    font-family: "NunitoSans-bold", sans-serif;
+    font-family: sans-serif;
     background-color: #160606;
     color: #fff;
     padding: 20px;
